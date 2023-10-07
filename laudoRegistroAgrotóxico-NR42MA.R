@@ -8,8 +8,8 @@ cat("Laudo de Registro de Produto para Agrotóxicos\n", sep = "", fill = FALSE, 
 cat("De acordo com a PL NR 42 do Ministéio da Agricultura\n")
 
 # METODOLOGIA
-cat("Metodologia iutilizada:\n")
-cat("1. nColeta de dados\n")
+cat("Metodologia utilizada:\n")
+cat("1. Coleta de dados\n")
 cat("2. Análise estatística]\n")
 cat("3. Inmterpretação dos resultados\n")
 
@@ -18,13 +18,13 @@ cat("3. Inmterpretação dos resultados\n")
 
 # Análise estatística (exemplo com dados fictícios)
 dados <- c(10, 20, 30, 40)
-média <- mean(dados, na.rm=FALSE)
+media <- mean(dados, na.rm=FALSE)
 
 # RESULTADOS
 cat("Média dos resultados: ", media, "\n", sep = "", fill = FALSE, labels = NULL, append = FALSE)
 
 # CONCLUSÃO
-cat("Com base nos resultados, o produto está em conformidade com as normaas.\n")
+cat("Com base nos resultados, o produto está em conformidade com as normas.\n")
 
 # Exportar laudo como PDF (opcional)
 # pdf("Laudo_Agrotóxicos.pdf")
