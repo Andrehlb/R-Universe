@@ -20,7 +20,7 @@ print(paste("Type of the variable 'dna_sequence': ", class(dna_sequence)))
 print(paste("Length of the variable 'dna_sequence': ", nchar(dna_sequence)))
 
 # Debugging: Print the first 50 characters of the'dna_sequence' variable
-print(paste("Readind the DNA sequence: ", substr(dna_sequence, 1, 1000)))  # imprime os primeiros 50 caracteres
+print(paste("Readind the DNA sequence, imcompletely displayed: ", substr(dna_sequence, 1, 30)))  # imprime os primeiros 50 caracteres
 
 # Remove spaces and unwanted characters
 dna_sequence <- gsub("[[:space:]]+", "", dna_sequence)
