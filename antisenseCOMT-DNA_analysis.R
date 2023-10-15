@@ -50,3 +50,4 @@ cat("Frequency of the A:", base_count["a"], "\n")
 cat("Frequency of the T:", base_count["t"], "\n")
 cat("Frequency of the G:", base_count["g"], "\n")
 cat("Frequency of the C:", base_count["c"], "\n")
+
