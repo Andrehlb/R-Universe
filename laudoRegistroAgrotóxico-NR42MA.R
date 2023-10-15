@@ -10,7 +10,7 @@ cat("De acordo com a PL NR 42 do Ministéio da Agricultura\n")
 # METODOLOGIA
 cat("Metodologia utilizada:\n")
 cat("1. Coleta de dados\n")
-cat("2. Análise estatística]\n")
+cat("2. Análise estatística\n")
 cat("3. Inmterpretação dos resultados\n")
 
 # IMportar dados (exemplo com dados fictícios)
@@ -24,7 +24,7 @@ media <- mean(dados, na.rm=FALSE)
 cat("Média dos resultados: ", media, "\n", sep = "", fill = FALSE, labels = NULL, append = FALSE)
 
 # CONCLUSÃO
-cat("Com base nos resultados, o produto está em conformidade com as normas.\n")
+cat("Com base nos resultados (de dados fictícios), o produto está em conformidade com as normas.\n")
 
 # Exportar laudo como PDF (opcional)
 # pdf("Laudo_Agrotóxicos.pdf")
