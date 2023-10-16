@@ -2,9 +2,13 @@
 
 install.packages('DBI')
 install.packages('RMySQL')
+install.packages('dplyr')
+install.packages('ggplot2')
 
 library(DBI)
 library(RMySQL)
+library(dplyr)
+library(ggplot2)
 
 # Conectando ao banco de dados
 
